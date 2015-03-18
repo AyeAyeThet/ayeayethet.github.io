@@ -1,0 +1,27 @@
+html,body,div,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#home li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #445;
+}
+ul{
+	margin-bottom: 0!important;
+}
+#home #socials li a{
+    padding: 14px 18px;
+  display: block;
+  margin: 0;
+}
+#home{
+	background: #000;
+}
+#home #socials i{
+  color: #fff;
+  font-size: 20px;
+}
