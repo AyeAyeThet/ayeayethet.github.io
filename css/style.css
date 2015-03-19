@@ -1,8 +1,18 @@
-html,body,div,ul,li{
+html,body,div,p,ul,li{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+body{
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none!important;
+}
+
 #home li {
   display: inline-block;
   width: 50px;
@@ -10,18 +20,36 @@ html,body,div,ul,li{
   border-radius: 50%;
   background: #445;
 }
-ul{
+ul,p{
 	margin-bottom: 0!important;
 }
 #home #socials li a{
-    padding: 14px 18px;
-  display: block;
-  margin: 0;
+   	padding: 14px 18px;
+  	display: block;
+  	margin: 0;
 }
-#home{
-	background: #000;
-}
+
 #home #socials i{
   color: #fff;
   font-size: 20px;
+}
+#contact-info{
+	text-align:right;
+}
+#contact-info a{
+	display: block;
+	margin-bottom: 10px;
+	color:#fff;
+	font-size: 21px;
+	font-family: 'Oswald';
+	font-weight: normal;
+}
+#contact-info i{
+	padding-right:5px;
+}
+#contact-info .phone-no{
+	font-size:35px;
+}
+.top{
+	padding:20px;
 }
