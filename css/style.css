@@ -53,3 +53,8 @@ ul,p{
 .top{
 	padding:20px;
 }
+span#bold {
+  font-weight: 600;
+  letter-spacing: -2px;
+  font-size: 75px;
+}
