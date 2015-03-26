@@ -15,24 +15,76 @@ a:hover{
 
 #home li {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #445;
+    border: 1px solid transparent;
+  border-top: 0;
+  border-bottom: 0;
+  -webkit-backface-visibility: hidden;
 }
 ul,p{
 	margin-bottom: 0!important;
 }
 #home #socials li a{
-   	padding: 14px 18px;
-  	display: block;
+	display: block;
+	width: 55px;
+   	height:55px;
   	margin: 0;
+  	background: rgba(255,255,255,.3);
+  	border-radius: 50%;
+  	text-align:center;
+  	position: relative;
+  	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+	overflow: hidden;
 }
 
 #home #socials i{
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
 }
+#home #socials li a i:first-child{
+	top: -80px;
+}
+#home #socials li a i{
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	-webkit-transition: top 0.4s ease-in-out 0s;
+	-moz-transition: top 0.4s ease-in-out 0s;
+	-ms-transition: top 0.4s ease-in-out 0s;
+	-o-transition: top 0.4s ease-in-out 0s;
+	transition: top 0.4s ease-in-out 0s;
+}
+#home #socials li a:hover.fb{
+	background:#395793;
+} 
+#home #socials li a:hover.tw{
+	background:#1CA3DB;
+}
+#home #socials li a:hover.ggp{
+	background:#753D37;
+}
+#home #socials li a:hover.instg{
+	background:#C08D64;
+}
+#home #socials li a:hover.linkIn{
+	background:#0A6594;
+}
+#home #socials li a:hover i:first-child{
+	top:0;
+}
+#home #socials li a i:last-child{
+	top:0;
+}
+#home #socials li a:hover i:last-child{
+	top:80px;
+}
+
 #contact-info{
 	text-align:right;
 }
