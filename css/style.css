@@ -110,3 +110,6 @@ span#bold {
   letter-spacing: -2px;
   font-size: 75px;
 }
+#home #menu{
+	margin: 0;
+}
