@@ -23,6 +23,8 @@ if($_POST["submit"]) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<!-- <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi" /> -->
+	<meta name="keywords" content="Aye Aye Thet , web designer , frontend developer, Porfolio" />
+    	<meta name="author" content="Porfolio by Aye Aye Thet" />
 	<meta name="description" content="Aye Aye Thet , web designer , frontend developer">
 	<meta property="og:title" content="">
 	<meta property="og:type" content="website">
