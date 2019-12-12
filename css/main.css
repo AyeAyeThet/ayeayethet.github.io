@@ -685,4 +685,7 @@ footer{
 	.intro-1{
 		font-size: 20px;
 	}
+  span#role {
+      font-size: 20px;
+  }
 }
