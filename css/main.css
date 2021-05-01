@@ -22,7 +22,9 @@ body{
 	font-size: 15px;
 }
 .navbar-light .navbar-toggler-icon{
-	background-image: url(../img/toggle-menu-img.img);
+	background-image: url(../img/menu.png)!important;
+	width:40px;
+	height:40px;
 }
 #mainNav li {
 	transition: all ease 300ms;
