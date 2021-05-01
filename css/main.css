@@ -654,7 +654,7 @@ footer{
 }
 @media only screen and (max-width: 991px){
 	#mainNav{
-		background: transparent;
+		background: #000;
 	}
 	.slick-dots{
 		display: none!important;
